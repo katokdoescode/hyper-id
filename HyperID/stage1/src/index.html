@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HyperID | Login</title>
+</head>
+<body class="h-body">
+	<main class="h-block-centered">
+		<form id="login" method="POST" class="h-form">
+			<section class="h-form__section-heading">
+				<section class="h-form__section-logo">
+					<h1 hidden>HyperID</h1>
+					<img src="./assets/hyper-id-logo.svg" alt="HyperID" width="358" height="67">
+				</section>
+			</section>
+
+			<fieldset class="h-form__fieldset">
+				<label class="h-input h-input_shadowed">
+					Username
+					<input
+						class="h-input__input"
+						type="text"
+						name="username"
+						placeholder="Enter your username"
+						autocomplete="on"
+						autofocus
+						required
+					>
+					<span class="h-input__notification">This field is required</span>
+				</label>
+
+				<label class="h-input h-input_shadowed">
+					Password
+					<input
+						type="password"
+						class="h-input__input"
+						required
+						placeholder="Enter your password"
+						type="password"
+						name="password"
+						autocomplete="on"
+						required
+					>
+					<span class="h-input__notification">Password is empty</span>
+				</label>
+			</fieldset>
+
+			<section class="h-form__section-buttons">
+				<button type="submit" class="h-button h-button_arrow-right">Login</button>
+			</section>
+		</form>
+	</main>
+</body>
+</html>

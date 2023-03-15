@@ -1,0 +1,24 @@
+{
+  "name": "hyper-id-project",
+  "version": "1.0.0",
+  "description": "This project involves creating a login form for a website or web-application",
+  "main": "index.js",
+	"type":"module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hyperskill",
+    "project",
+    "hiperid",
+    "jetbrains",
+    "JBA"
+  ],
+  "author": "@katokdoescode",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "puppeteer": "^19.7.5",
+		"hs-test-web": "https://github.com/hyperskill/hs-test-web/archive/master.tar.gz"
+  }
+}

@@ -1,0 +1,10 @@
+type: hyperskill
+title: HyperID
+language: English
+summary: |-
+  This is an introductory fullstack course.
+  - This course involves creating a login form for a website or web-application;
+  - The course covers basic fullstack skills;
+programming_language: JavaScript, Java
+content:
+- HyperID
