@@ -1,0 +1,27 @@
+@import './theme.css'; 	/* Variables		 	*/
+@import './form.css'; 	/* Form styles 			*/
+@import './button.css';	/* Button styles 		*/
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+.h-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: var(--h-blue);
+}
+
+.h-block-centered {
+	flex-grow: 1;
+}

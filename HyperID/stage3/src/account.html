@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/base.css">
+	<title>HyperID | Account</title>
+</head>
+<body class="h-body">
+	<main class="h-block-centered">
+		<form id="account-form" method="POST" class="h-form">
+			<section class="h-form__section-heading">
+				<section class="h-form__section-logo">
+					<img src="./assets/svg/hyper-id-logo.svg" alt="HyperID" width="358" height="67">
+				</section>
+				<h1 class="h-form__section-message">
+					<span>Hello, </span>
+					<span id="current-username"></span>!
+				</h1>
+			</section>
+
+			<fieldset class="h-form__fieldset">
+				<label class="h-input h-input_shadowed">
+					Name
+					<input
+						class="h-input__input"
+						type="text"
+						name="name"
+						autocomplete="on"
+						placeholder="Enter your name"
+						disabled
+					>
+				</label>
+				<label class="h-input h-input_shadowed">
+					Second name
+					<input
+						class="h-input__input"
+						type="text"
+						name="surname"
+						autocomplete="on"
+						placeholder="Enter your second name"
+						disabled
+					>
+				</label>
+			</fieldset>
+
+			<section class="h-form__section-buttons">
+				<button id="edit" type="button" class="h-button"><span>Edit</span></button>
+				<button id="save" hidden type="submit" class="h-button"><span>Save</span></button>
+				<button id="logout" type="button" class="h-button h-button_arrow-left">Logout</button>
+			</section>
+		</form>
+	</main>
+</body>
+</html>

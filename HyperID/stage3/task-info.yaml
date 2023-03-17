@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: src/register.html
+  visible: true
+- name: src/account.html
+  visible: true
+- name: src/login.html
+  visible: true
+- name: src/index.html
+  visible: true
+- name: test/login.test.js
+  visible: false
+- name: test/register.test.js
+  visible: false
+- name: test/accout.test.js
+  visible: false
+- name: test/index.test.js
+  visible: false
+- name: src/assets/svg/hyper-id-logo.svg
+  visible: true
