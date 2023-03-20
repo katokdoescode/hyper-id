@@ -6,11 +6,7 @@ files:
   visible: true
 - name: src/index.html
   visible: true
-- name: test/register.test.js
-  visible: false
-- name: test/accout.test.js
-  visible: false
-- name: test/index.test.js
+- name: test/test.js
   visible: false
 - name: src/assets/hyper-id-logo.svg
   visible: true
