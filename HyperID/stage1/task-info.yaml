@@ -4,5 +4,5 @@ files:
   visible: true
 - name: test/test.js
   visible: false
-- name: src/assets/hyper-id-logo.svg
+- name: src/assets/svg/hyper-id-logo.svg
   visible: true
