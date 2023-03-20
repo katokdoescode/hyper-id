@@ -4,9 +4,12 @@ files:
   visible: true
 - name: src/account.html
   visible: true
+- name: src/login.html
+  visible: true
 - name: src/index.html
   visible: true
 - name: test/test.js
   visible: false
-- name: src/assets/hyper-id-logo.svg
+  visible: false
+- name: src/assets/svg/hyper-id-logo.svg
   visible: true
